@@ -23,20 +23,3 @@ This project investigates the historical resale flat prices in Singapore and aim
 | ML Regression    | `XGBoost`, `sklearn`                            |
 | Visualization    | `plotly`, `matplotlib`, `pandas.plotting`       |
 
----
-
-## 📂 Folder Structure
-
-```bash
-hdb-price-model/
-│
-├── notebooks/
-│   ├── eda.ipynb              # Data exploration and cleaning
-│   ├── time_series.ipynb      # Prophet, ARIMA forecasting
-│   ├── xgboost_model.ipynb    # ML-based prediction
-│
-├── data/
-│   ├── resale-flat-prices.csv # Cleaned dataset
-│
-├── README.md
-└── requirements.txt
